@@ -1,0 +1,40 @@
+body {
+    background-color: #f4f5f7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+.form-card {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.stat-card .numero {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.table thead th {
+    background-color: #e9ecef;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.acciones {
+    white-space: nowrap;
+}
